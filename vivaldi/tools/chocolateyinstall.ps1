@@ -7,12 +7,12 @@ $packageArgs = @{
   packageName   = $packageName
   FileFullPath  = Join-Path $toolsDir 'vivaldi-downloaded.zip'
  
-  url           = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.7.705.3.exe'
-  checksum      = '862DBE5EC2B8FF15A45EB4E5AD1B5724'
+  url           = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.7.715.3.exe'
+  checksum      = '7F5FDD03C505805B475C809C789CB637'
   checksumType  = 'md5' #default is md5, can also be sha1
  
-  url64bit      = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.7.705.3.x64.exe'
-  checksum64    = '2DEB2F03FA808A939D985BCF4B7B50A4'
+  url64bit      = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.7.715.3.x64.exe'
+  checksum64    = '28485820778BAA717285DB2C5A150EAC'
 }
  
 $downloadedFile = Get-ChocolateyWebFile @packageArgs
