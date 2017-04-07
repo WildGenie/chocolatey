@@ -7,12 +7,12 @@ $packageArgs = @{
   packageName   = $packageName
   FileFullPath  = Join-Path $toolsDir 'vivaldi-downloaded.zip'
  
-  url           = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.8.770.46.exe'
-  checksum      = '4BE5768F906583471C4F1FB56C55C830D1D8D3BF05AD659F125C79316C56C335'
+  url           = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.9.804.3.exe'
+  checksum      = '92D554F040A3A51836721F2D3F3F24E7E87DB96FE068F42A561CB1D44DB289D'
   checksumType  = 'sha256' #default is md5, can also be sha1
  
-  url64bit      = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.8.770.46.x64.exe'
-  checksum64    = 'B91D9B8687DFF53D1338E1480FD84BDB07A0AD6B4DB09AB2CD267655B7955A7B'
+  url64bit      = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.9.804.3.x64.exe'
+  checksum64    = '53FCD2A92956610AF07412228DCE8CA798D472D9B2F2D9AD8EAFCD492849DD3B'
   checksumType64= 'sha256' #default is md5, can also be sha1
 }
  
@@ -25,3 +25,4 @@ Get-ChocolateyUnzip "$($toolsDir)\$($packageName)\vivaldi.7z" "$($toolsDir)\$($p
 Write-Host 'Creating *.ignore files to avoid making shims for other exes'
 New-Item "$($toolsDir)\$($packageName)\Vivaldi-bin\crash_service.exe.ignore" -type file -force | Out-Null
 New-Item "$($toolsDir)\$($packageName)\Vivaldi-bin\wow_helper.exe.ignore" -type file -force | Out-Null
+New-Item "$($toolsDir)\$($packageName)\Vivaldi-bin\update_notifier.exe.ignore" -type file -force | Out-Null
