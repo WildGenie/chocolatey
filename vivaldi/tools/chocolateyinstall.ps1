@@ -7,12 +7,12 @@ $packageArgs = @{
   packageName   = $packageName
   FileFullPath  = Join-Path $toolsDir 'vivaldi-downloaded.zip'
  
-  url           = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.10.845.3.exe'
-  checksum      = 'E4D2957E8D2A0601740686DE83F582422442FD07FEF2E7946B23057E7B7E970B'
+  url           = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.10.856.16.exe'
+  checksum      = '16B095F636CAC681E3F1C90079964F324383EABC223001BA3DBBA08A5E7589AE'
   checksumType  = 'sha256' #default is md5, can also be sha1
  
-  url64bit      = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.10.845.3.x64.exe'
-  checksum64    = 'F1D835DC2361798ED86B80B9D21B9B5B021AF29011E2BEBC4FC5FA9689C56F76'
+  url64bit      = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.10.856.16.x64.exe'
+  checksum64    = '42A8CFB79E5459CA4435470BBCC1060073DB3F0C4DA5C68ADE0317AD740AE03B'
   checksumType64= 'sha256' #default is md5, can also be sha1
 }
  
