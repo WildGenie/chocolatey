@@ -38,9 +38,9 @@
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
-    <dependencies>
+    <!-- <dependencies>
       <dependency id="7zip.commandline" version="16.02.0.20170209" />
-    </dependencies>
+    </dependencies> -->
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
