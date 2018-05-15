@@ -8,13 +8,13 @@ $packageArgs = @{
     unzipLocation  = $toolsDir
     fileType       = 'exe'
        
-    url            = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.16.1177.5.exe'
+    url            = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.16.1183.3.exe'
     silentArgs     = '--vivaldi-silent --do-not-launch-chrome --vivaldi-update'
     
-    checksum       = '9AC4A7B87F7BE1923FBC2C4011EBE4701F8410B7F6515D83D580904029D2B4E2'
+    checksum       = '01BEFEEB2E65EC5572BDAAB4FA19C3053B42C83B63435B481833713C836978EE'
     checksumType   = 'sha256' #default is md5, can also be sha1
-    url64bit       = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.16.1177.5.x64.exe'
-    checksum64     = '69ADA173346B52CCF867D23E1532DB49F4827FE1466C480B86002639473923D1'
+    url64bit       = 'https://downloads.vivaldi.com/snapshot/Vivaldi.1.16.1183.3.x64.exe'
+    checksum64     = '7A1186E75043258F8A63DB7068818763FD6A86AC062AB5995FE561B2D354703E'
     checksumType64 = 'sha256' #default is md5, can also be sha1
 }
 
